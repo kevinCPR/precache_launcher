@@ -1,6 +1,6 @@
 import os
 
-with open('./Apple_mobile_device_types.txt') as f:
+with open('~/precache/precache_launcher/Apple_mobile_device_types.txt') as f:
     mobileDevices = f.read().splitlines()
 
 i = 1
