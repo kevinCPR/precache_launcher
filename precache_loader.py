@@ -1,6 +1,6 @@
 import os
 from os.path import expanduser,join
-home = expanduser("~")
+home = expanduser('~')
 with open(join(home,'/precache/precache_launcher/Apple_mobile_device_types.txt')) as f:
     mobileDevices = f.read().splitlines()
 
